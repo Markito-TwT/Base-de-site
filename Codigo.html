@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Site Base</title>
+  <style>
+    /* Estilos globais */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    /* Cabeçalho */
+    header {
+      background-color: #333;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    /* Menu de navegação */
+    nav {
+      background-color: #444;
+      overflow: hidden;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: inline-block;
+      font-size: 1.1rem;
+    }
+
+    nav a:hover {
+      background-color: #575757;
+    }
+
+    /* Seções principais */
+    .main-content {
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+      background-color: white;
+    }
+
+    .main-content h2 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+    }
+
+    .main-content p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    /* Rodapé */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <h1>Home</h1>
+  </header>
+
+  <!-- Menu de navegação -->
+  <nav>
+    <a href="Codigo.html" onclick="eventoClick()">Home</a>
+    <a href="sobre.html" onclick="eventoClick1()">Sobre</a>
+    <a href="servisos.html" onclick="eventoClick2()">Serviços</a>
+    <a href="contato.html" onclick="eventoClick3()">Contato</a>
+  </nav>
+
+  <!-- Seção Principal -->
+  <div class="main-content">
+    <section id="home">
+      <h2>Home</h2>
+      <p>Bem-vindo ao meu site! Aqui você encontrará informações sobre os meus serviços, projetos e muito mais. Explore à vontade!</p>
+    </section>
+    <hr>
+
+    <section id="about">
+      <h2>Sobre</h2>
+      <p>Sou um desenvolvedor apaixonado por criar soluções digitais. Com experiência em várias tecnologias, gosto de construir sites e aplicativos que atendam às necessidades dos usuários.</p>
+    </section>
+    <hr>
+
+    <section id="services">
+      <h2>Serviços</h2>
+      <ul>
+       <p>
+        Programaçao de web site.<br>
+        Checap de codigos.<br>
+        Portifolio.
+       </p>
+      </ul>
+    </section>
+    <hr>
+
+    <section id="contact">
+      <h2>Contato</h2>
+      <p>Entre em contato para mais informações sobre como podemos colaborar juntos. Envie um e-mail para <a href="mmn976482@gmail.com">mmn976482@gmail.com</a>, meu email.</p>
+    </section>
+    <hr>
+
+    <section id="voluntarios">
+      <h2>Voluntarios</h2>
+      <p>Voluntarios para me ajudar nesses<br>
+      projetos voce podera ganha ate 60% de meus <br>
+      lucros</p>
+    </section> 
+
+  </div>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 Meu Site | <a href="https://discord.com/users/1018624822747611179">Contato</a></p>
+  </footer>
+  <script>
+    function eventoClick(){
+      alert('Voce será redirecionado para home')
+    }
+
+    function eventoClick1(){
+      alert('Voce será redirecionado para sobre')
+    }
+
+    function eventoClick2(){
+      alert('Voce será redirecionado para serviços')
+    }
+
+    function eventoClick3(){
+      alert('Voce será redirecionado para contato')
+    }
+  </script>
+</body>
+</html>
